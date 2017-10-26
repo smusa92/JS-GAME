@@ -1,8 +1,11 @@
 canvas { 
-    background: #eee;  
+    background:url('https://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/space.jpg');
+    transition:background-position 1s;
+    background-size:cover;
+    position: relative;
     margin: auto;
-    width: 600px;
-    height: 400px;
+    /*width: 600px;
+    height: 400px;*/
     position: absolute;
     top: 0;
     bottom: 0;
